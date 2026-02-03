@@ -1,7 +1,7 @@
 :root {
   --text-color: #1a1c20;
   --link-color: #4a76ee;
-  --background-color: #eeeff1;
+  --background-color: #eae4e4;
 }
 * {
   margin: 0;
@@ -15,8 +15,10 @@ body {
   font-family: 'Poppins', sans-serif;
   color: var(--text-color);
   background-color: var(--background-color);
-  max-width: 1400px;
+  max-width: 1100px;
   margin: 0 auto;
+  overflow-x: hidden;
+
 }
 
 a {
@@ -252,4 +254,29 @@ nav .right a span {
   .contact-section {
     padding: 0 20px;
   }
+}
+ul {
+  margin: 20px 20px 20px 20px;
+}
+
+button {
+  font-size: 1rem;
+  height: 50px;
+  width: 150px;
+  position: relative;
+  bottom: 3.5rem;
+  left: 5.5rem;
+  background: var(--link-color);
+  color: rgb(255, 255, 255);
+  border: none;
+  padding-bottom: 30%;
+  padding: 0.75rem 1.5rem;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  font-weight: 300;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  background: #7a7fff;
 }
